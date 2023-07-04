@@ -1,0 +1,148 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+
+  .hero-section {
+      background-image: url(images/hero-image.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 20px;
+      height: 100vh;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: -1px -1px 3px #000000, 10px 12px 14px #1b1b1b;
+      margin: 0px;
+
+  }
+
+  .hero-section div:hover {
+      text-shadow: 10px -1px 10px #fffffff7, 1px 3px 10px #ffffff;
+      color: black;
+
+  }
+
+  .font-big {
+      font-size: 3.4rem;
+  }
+
+  section {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .black-box-section {
+      margin: 0px;
+      background-color: #000;
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+      font-size: 40px;
+
+      font-family: Georgia;
+  }
+
+  .you {
+      font-family: verdana;
+      font-size: 65px;
+      font-weight: bold;
+
+  }
+
+  .grid-section {
+      margin: 3.8rem 0;
+  }
+
+  .grid-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 10px;
+
+  }
+
+
+
+  .card {
+      max-width: 340px;
+      height: 400px;
+      margin: 5px;
+      border-radius: 5px;
+      align-items: center;
+      box-shadow: rgba(50, 50, 93, 0.25) 5px 10px 15px -1px,
+          rgba(0, 0, 0, 0.3) 0px 5px 10px -2px;
+  }
+
+  .card:hover {
+      box-shadow: rgba(12, 96, 104, 0.45) 5px 10px 15px -1px;
+
+  }
+
+  .card img {
+      width: 100%;
+      border-radius: 11px 11px 0 0;
+  }
+
+  .card-content {
+      grid-template-columns: auto minmax(340px, 1fr);
+      gap: 50px;
+      margin: 5px;
+      padding: 0px 10px;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .card-content p {
+      font-size: 15px;
+
+  }
+
+  .grid-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .bottom-section {
+      display: flex;
+      /* background-color: #ffffff; */
+      padding: 0px;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+
+  }
+
+  .box {
+
+      color: white;
+      font-size: 15px;
+      padding: 20px;
+      background-color: #6e000c;
+      width: 550px;
+      height: 150px;
+      align-items: center;
+      border-radius: 15px;
+
+  }
+
+
+  .about {
+      background-color: #2b420f;
+  }
+
+  /* CSS code for responsive design */
+  @media (max-width: 768px) {
+      .grid-container {
+          flex-direction: column;
+      }
+  }
